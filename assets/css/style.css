@@ -1,0 +1,140 @@
+@import url('./reset.css');
+
+.container-menu {
+    background-color: #FFFF;
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container-youtube {
+    display: flex;
+    gap: 30px;
+    padding: 16px;
+}
+.container-youtube > #img-youtube {
+    height: 20px;
+    width: 90px;
+}
+
+
+.container-pesquisa > form {
+    display: flex;
+}
+form > #search {
+    height: 40px;
+    width: 348px;
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+}
+button {
+    cursor: pointer;
+    height: 40px;
+    width: 57px;
+    border: 1px solid #CCCCCC;
+}
+
+
+.container-guias {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 11px;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+.watching-video {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+.watching-video > .video-banner {
+    width: 952px;
+    height: 537px;
+}
+.watching-video > .title-video {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.video-actions {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+.canal-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.canal-info > #channel-icon {
+    border-radius: 50px;
+}
+#icon-subscribe {
+    width: 106px;
+    height: 32px;
+}
+.subscribe-button {
+    width: 159px;
+    height: 40px;
+    background-color: #CC0000;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+.views {
+    font-weight: 600;
+    font-size: 14px;
+}
+.description {
+    width: 510px;
+    height: 64px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #515151;
+}
+
+
+.siderbar-videos {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+
+
+.videos-recomendados {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.videos-recomendados > .recommended-banner {
+    width: 180px;
+    height: 107px;
+}
+
+.videos-recomendados > .infos-recommended {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    width: 196px;
+}
+.title {
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+}
+.channel, .views {
+    color: #515151;
+    font-weight: 400;
+    font-size: 14px;
+}
